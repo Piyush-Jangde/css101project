@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* font-family: "Young Serif", serif; */
+/* font-family: "Outfit", sans-serif; */
+
+/* reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width:100%;
+    border-radius: 12px;
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 735px;
+    margin: 125px auto;
+    padding: 40px;
+    border-radius: 20px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-size: 2.4rem;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 1.725rem;
+    font-weight: 400;
+    margin-bottom: 0.35rem;
+}
+
+.preparation {
+    background-color: hsl(330,100%,98%);
+    padding: 1.25rem 1.75rem;
+    border-radius: 0.5rem;
+}
+.preparation__heading {
+    font-family:  "Young Serif", serif;
+    color: hsl(332,51%,32%);
+    font-weight: 600;
+}
+ul,ol {
+    padding: 0.5rem 0 0.5rem 1.5rem;
+}
+ul > *, ol > * {
+    padding: 0.25rem 1rem;
+}
+.ingredients__list {
+    list-style-type: square;
+}
+.instructions__list >*::marker {
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+
+hr {
+    background-color: hsl(30,18%,87%);
+}
+
+.nutrition__table {
+    width: 100%;
+}
+.nutrition__table__caption {
+    text-align: left;
+    padding: 0.7rem 0;
+}
+.nutrition__table td {
+    border-bottom: 1px solid hsl(30,18%,87%);
+    padding: 0.7rem 0;
+}
+.nutrition__table tr:last-child td {
+    border-bottom: none;
+}
+.nutrition__table tr td:first-child {
+    padding-left: 0.7rem;
+}
+.nutrition__table tr td:last-child {
+    padding-right: 0.7rem;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
